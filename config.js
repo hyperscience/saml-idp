@@ -17,27 +17,27 @@ var profile = {
  * SAML Attribute Metadata
  */
 var metadata = [{
-  id: "first_name",
+  id: "FirstName",
   optional: false,
-  displayName: 'first_name',
+  displayName: 'FirstName',
   description: 'The given name of the user',
   multiValue: false
 }, {
-  id: "last_name",
+  id: "LastName",
   optional: false,
-  displayName: 'last_name',
+  displayName: 'LastName',
   description: 'The surname of the user',
   multiValue: false
 }, {
-  id: "email",
+  id: "mail",
   optional: false,
-  displayName: 'email',
+  displayName: 'mail',
   description: 'The e-mail address of the user',
   multiValue: false
 },{
-  id: "group",
+  id: "authorities",
   optional: true,
-  displayName: 'group',
+  displayName: 'authorities',
   description: 'Group memberships of the user',
   multiValue: false
 }];
