@@ -14,4 +14,4 @@ ADD ./idp-public-cert.pem idp-public-cert.pem
 ADD ./idp-private-key.pem idp-private-key.pem
 ADD ./public public
 
-ENTRYPOINT [ "node", "app.js", "--acs", "http://localhost:8080/saml2/acs", "--aud", "http://localhost:8080/", "--host", "0.0.0.0" ]
+ENTRYPOINT [ "node", "app.js", "--acs", "http://localhost:8080/saml2/acs", "--aud", "http://devops-testing-master01.int.hyperscience.com/", "--host", "0.0.0.0" ]
