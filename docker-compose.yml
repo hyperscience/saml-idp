@@ -1,6 +1,5 @@
 services:
   saml-idp:
     build: .
-    network_mode: "host"
     ports:
       - "7000:7000"
